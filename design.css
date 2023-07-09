@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&family=Luckiest+Guy&family=Pacifico&family=Purple+Purse&family=Yellowtail&display=swap');
+
+body {
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Purple Purse';
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(58, 67, 90);
+}
+
+table, th{
+    border: 1px solid;
+}
+
+th{
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: rgb(58, 67, 90);
+}
+  
